@@ -1,10 +1,33 @@
 aid: bass-associates
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bass-associates.png
 name: Bass Associates
-description: Bass Associates is a company surfaced as a portfolio company of battery-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: 'Bass Associates is an early- and growth-stage venture capital firm historically
+  based at 435 Tasso Street, Palo Alto, California, and appears on the Battery Ventures
+  "list of all companies" as an exited entry. Public investor databases record roughly
+  32 investments and 10 exits alongside co-investors such as Accel Partners, Kleiner
+  Perkins and CRV, with its last recorded investment (Teloquent, growth equity) in
+  January 2002 and its last recorded exit in December 2003. The 2026 enrichment pass
+  found no operating website, no developer portal, no documentation and no API surface
+  of any kind: the firm appears dormant and is not an API provider. It was surfaced
+  into the API Evangelist network by the VC-portfolio crawl as a Battery Ventures
+  portfolio lead, but the underlying entity is itself an investor rather than an operating
+  software company.'
 url: https://raw.githubusercontent.com/api-evangelist/bass-associates/refs/heads/main/apis.yml
 x-type: company
+x-classification: venture-capital-firm
+x-status: dormant
+x-api-surface: none
 x-source: vc-portfolio
 x-backed-by:
 - battery-ventures
@@ -12,12 +35,25 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Venture Capital
+- Investment
+- Finance
+- Dormant
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  notes: 'Searched Battery Ventures company list, CB Insights and general web; probed
+    bassassociates.com and bass-associates.com (both 200 but unrelated entities — a
+    Toronto labour-relations consultancy and an Arizona collections law firm). No
+    provider domain, no API, no docs, no artifacts to derive.'
