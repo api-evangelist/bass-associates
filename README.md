@@ -64,18 +64,28 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Bass Associates is an early- and growth-stage venture capital firm historically based at 435 Tasso Street, Palo Alto, California. It appears on the Battery Ventures "list of all companies" as an exited entry, which is how it entered the API Evangelist network via the VC-portfolio crawl.
+> **No live API surface.** Nothing from this company could be reached the last time it was checked: the site is offline, parked or unreachable, or no public API was found. This profile is kept as a historical record and is not maintained or rated.
 
-Public investor databases record roughly 32 investments and 10 exits alongside co-investors such as Accel Partners, Kleiner Perkins and CRV. The last recorded investment was Teloquent (growth equity, January 2002) and the last recorded exit was Teloquent's acquisition in December 2003.
+Bass Associates is an early- and growth-stage venture capital firm historically based at 435 Tasso Street, Palo Alto, California, and appears on the Battery Ventures "list of all companies" as an exited entry. Public investor databases record roughly 32 investments and 10 exits alongside co-investors such as Accel Partners, Kleiner Perkins and CRV, with its last recorded investment (Teloquent, growth equity) in January 2002 and its last recorded exit in December 2003. The 2026 enrichment pass found no operating website, no developer portal, no documentation and no API surface of any kind: the firm appears dormant and is not an API provider. It was surfaced into the API Evangelist network by the VC-portfolio crawl as a Battery Ventures portfolio lead, but the underlying entity is itself an investor rather than an operating software company.
 
-## Enrichment status
+**Areas:** Company · Venture Capital · Investment · Finance · Dormant
 
-The 2026-07-20 enrichment pass found **no API surface**:
+## Bass Associates on APIs.io (historical record)
 
-- No operating website could be verified for the firm. `bassassociates.com` (HTTP 200) is a Toronto labour-relations consultancy and `bass-associates.com` (HTTP 200) is an Arizona collections/bankruptcy law firm — neither is this entity.
-- No developer portal, documentation, OpenAPI, SDKs, or `/.well-known/` surface exists to harvest.
-- The entity is an **investor**, not an operating software company, and appears dormant since the early 2000s.
+Everything profiled for Bass Associates is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/bass-associates/](https://apis.io/providers/bass-associates/)** — or go straight to one of the APIs or properties below.
 
-No artifacts were generated. This is a valid, completed pass with an empty result.
+## API Evangelist rating
 
-Backed by: battery-ventures
+**Not rated** — this company is recorded as no live api surface, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Bass Associates: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/bass-associates/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
